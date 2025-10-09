@@ -1,3 +1,41 @@
+@media screen and (max-width: 450px) {
+    #form {
+        width: 320px !important;
+    }
+
+    .icons-div {
+        width: 320px !important;
+        height: 90px !important;
+    }
+
+    table {
+        margin-top: 12px !important;
+    }
+
+    table th,
+    table {
+        font-size: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        word-wrap: break-word;
+    }
+
+    td {
+        font-size: 10px !important;
+    }
+
+    td:first-child {
+        width: 30%;
+    }
+
+    input[type="radio"] {
+        width: 9px !important;
+        height: 9px !important;
+    }
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -19,7 +57,7 @@ body {
     width: 640px;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
@@ -147,8 +185,8 @@ input:focus {
 
 input[type="radio"] {
     appearance: none;
-    width: 18px !important;
-    height: 18px !important;
+    width: 18px;
+    height: 18px;
     border: 1px solid #686c71;
     border-radius: 50%;
     padding-top: 0 !important;
@@ -287,75 +325,75 @@ td:first-child {
 }
 
 .input-div.error {
-  border: 1px solid red;
+    border: 1px solid red;
 }
 
 .input-div.error input {
-  border-bottom: 2px solid red !important;
+    border-bottom: 2px solid red !important;
 }
 
 
 .file-input-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .file-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background-color: #fff;
-  border: 1px solid #dadce0;
-  color: #1a73e8;
-  border-radius: 4px;
-  padding: 10px 20px;
-  margin-top: 30px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: background-color 0.2s, box-shadow 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s, box-shadow 0.2s;
 }
 
 .file-btn:hover {
-  background-color: #f1f3f4;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: #f1f3f4;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 input[type="file"] {
-  display: none;
+    display: none;
 }
 
 .file-display {
-  display: none;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #f1f3f4;
-  color: #202124;
-  font-size: 14px;
-  padding: 10px 20px;
-  margin-top: 30px;
-  border-radius: 4px;
-  border: 1px solid #dadce0;
-  max-width: 330px;
-  min-width: 200px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  gap: 8px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f3f4;
+    color: #202124;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border: 1px solid #dadce0;
+    max-width: 330px;
+    min-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    gap: 8px;
 }
 
 .remove-file-btn {
-  border: none;
-  background: none;
-  color: #5f6368;
-  font-size: 16px;
-  cursor: pointer;
-  padding: 0 4px;
-  transition: color 0.2s;
+    border: none;
+    background: none;
+    color: #5f6368;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 4px;
+    transition: color 0.2s;
 }
 
 .remove-file-btn:hover {
-  color: #d93025;
+    color: #d93025;
 }
